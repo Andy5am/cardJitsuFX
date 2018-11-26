@@ -8,9 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
 public class InicioDeSesion {
-
 
     //conexion con grafico
     @FXML
@@ -21,6 +19,8 @@ public class InicioDeSesion {
     public void abrirPantallaInicial(ActionEvent event){
         Parent root;
         try {
+            String usuario = userField.getText();
+            String contraserna = passwordField.getText();
             //Carga ventana
             FXMLLoader loader = new FXMLLoader(getClass().getResource("PantallaInicial.fxml"));
             root =loader.load();
