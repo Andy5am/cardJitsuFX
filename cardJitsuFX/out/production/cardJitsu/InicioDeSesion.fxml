@@ -60,5 +60,12 @@
          </GridPane.margin>
       </TextField>
       <Button mnemonicParsing="false" onAction="#abrirPantallaInicial" text="Iniciar sesión" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="usuario" text="Usuario 1" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets left="100.0" top="120.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="21.0" />
+         </font></Label>
    </children>
 </GridPane>

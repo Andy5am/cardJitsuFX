@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b37c895-7443-4a21-832c-4ab86196ce1c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/cardJitsuFX.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/4.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardJitsuFX/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/CartaEspecial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Cinturon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/ModoDeJuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardJitsu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cardJitsu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cardJitsu/META-INF/cardJitsu.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InicioDeSesion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/InicioDeSesion.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InicioDeSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InicioDeSesion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -75,13 +44,13 @@
           <entry key="fxml" value="3" />
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -90,13 +59,13 @@
         <counts>
           <entry key="fxml" value="1" />
           <entry key="gradle" value="91" />
-          <entry key="java" value="3081" />
+          <entry key="java" value="4173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="91" />
-          <entry key="JAVA" value="3081" />
+          <entry key="JAVA" value="4173" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -105,76 +74,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/Carta.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/CartaEspecial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/Cinturon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/Deck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="85">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/ModoDeJuego.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Clases/Perfil.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="200">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,38 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Clases/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
+            <state relative-caret-position="2261">
               <caret line="153" column="66" selection-start-line="153" selection-start-column="66" selection-end-line="153" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,6 +134,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>size</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -542,7 +448,6 @@
         <option value="$PROJECT_DIR$/src/hola.fxml" />
         <option value="$PROJECT_DIR$/src/MenuTurnoJugador.fxml" />
         <option value="$PROJECT_DIR$/src/MenuPerfil.fxml" />
-        <option value="$PROJECT_DIR$/src/InicioDeSesion.fxml" />
         <option value="$PROJECT_DIR$/src/NuevoPerfil.java" />
         <option value="$PROJECT_DIR$/src/NuevoPerfil.fxml" />
         <option value="$PROJECT_DIR$/src/PantallaInicial.java" />
@@ -559,15 +464,16 @@
         <option value="$PROJECT_DIR$/src/Clases/CartaEspecial.java" />
         <option value="$PROJECT_DIR$/src/Clases/ModoDeJuego.java" />
         <option value="$PROJECT_DIR$/src/Clases/Cinturon.java" />
-        <option value="$PROJECT_DIR$/src/InicioDeSesion.java" />
         <option value="$PROJECT_DIR$/src/Clases/Perfil.java" />
         <option value="$PROJECT_DIR$/src/Clases/Usuario.java" />
         <option value="$PROJECT_DIR$/src/Clases/Deck.java" />
+        <option value="$PROJECT_DIR$/src/InicioDeSesion.fxml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/InicioDeSesion.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1614" />
@@ -589,6 +495,17 @@
               <item name="CardJitsu" type="b2602c69:ProjectViewProjectNode" />
               <item name="cardJitsuFX" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CardJitsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardJitsuFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CardJitsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardJitsuFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Clases" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -597,7 +514,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543251136110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543255183092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../postgresql-42.2.5.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -708,7 +625,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -914,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Clases/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
+        <state relative-caret-position="2261">
           <caret line="153" column="66" selection-start-line="153" selection-start-column="66" selection-end-line="153" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -923,23 +840,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.fxml">
-      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="85">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="200">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

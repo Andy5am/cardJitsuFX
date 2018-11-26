@@ -18,10 +18,24 @@ import java.sql.Statement;
 
 public class Main extends Application {
 
+    private static ArrayList<Usuario> jugadores = new ArrayList();
+
+    public static void agregarJugador(Usuario j){
+        jugadores.add(j);
+    }
+    public static Usuario getJugador (int i){
+        return jugadores.get(i);
+    }
+
+    public static int getNumJugadores(){
+        return jugadores.size();
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("InicioDeSesion.fxml"));
         primaryStage.setTitle("Inicio de Sesion");
+        //primaryStage.
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
@@ -48,7 +62,7 @@ public class Main extends Application {
             //Se define una lista que contiene todos los jugadores de la base de datos
             //Y otra que unicamente contiene los jugadres que jugaran esta partida
             //ArrayList<Usuario> usuarios = new ArrayList();
-            ArrayList<Usuario> jugadores = new ArrayList();
+
             //Estos usuarios sirvIERONen de prueba.
             //usuarios.add(new Usuario("Marco","Cinco","hola@gmail.com"));
             //usuarios.add(new Usuario("Chus","Seis","adios@gmail.com"));
