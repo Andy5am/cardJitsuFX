@@ -3,8 +3,10 @@ import Clases.Deck;
 import Clases.Perfil;
 import Clases.Usuario;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -83,7 +85,7 @@ public class InicioDeSesion {
                             JOptionPane.showMessageDialog(null, "Bienvenido "+Main.getJugador(Main.getNumJugadores()-1).getUsuario());
                         }
                     }**/
-                    this.usuario.setText("Usuario: "+Main.getNumJugadores()+1);
+                    this.usuario.setText("Usuario: "+(Main.getNumJugadores()+1));
                 }else{
                     JOptionPane.showMessageDialog(null, "Hay datos incorrectos");
                     userField.setText("");
@@ -104,7 +106,7 @@ public class InicioDeSesion {
                 stage.setScene(new Scene(root,450,450));
                 //Conexion con controller de nueva lista
                 PantallaInicial controllerPantallaInicial = loader.getController();
-
+                ((Node) event.getSource()).getScene().getWindow().hide();
                 stage.show();
             }else{
             }
@@ -119,7 +121,7 @@ public class InicioDeSesion {
             Parent root = loader.load();
             Stage stage = new Stage();
             stage.setTitle("Nuevo Perfil");
-            stage.setScene(new Scene(root,450,450));
+            stage.setScene(new Scene(root,600,450));
             NuevoPerfil controllerNuevoPerfil = loader.getController();
             stage.show();
         }catch (Exception e){

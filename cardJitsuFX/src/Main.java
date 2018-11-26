@@ -19,14 +19,29 @@ import java.sql.Statement;
 public class Main extends Application {
 
     private static ArrayList<Usuario> jugadores = new ArrayList();
-
+    private static Arena arena;
+    private static ModoDeJuego modo;
+    public static ModoDeJuego getModoDeJuego(){
+        return modo;
+    }
+    public static ArrayList<Usuario> getJugadores(){
+        return jugadores;
+    }
+    public static Arena getArena(){
+        return arena;
+    }
+    public static void setArena (Arena a){
+        arena = a;
+    }
+    public static void setModoDeJuego( ModoDeJuego m){
+        modo = m;
+    }
     public static void agregarJugador(Usuario j){
         jugadores.add(j);
     }
     public static Usuario getJugador (int i){
         return jugadores.get(i);
     }
-
     public static int getNumJugadores(){
         return jugadores.size();
     }
@@ -130,6 +145,8 @@ public class Main extends Application {
             c.close();
             if (jugadores.size()!=2){
                 System.out.println("Hay datos incorrectos!");
+
+
             }else{
                 System.out.println("Bienvenidos ambos");
                 //               PRUEBAS DE LOS SERIALIZERS DE LOS OBJETOS
@@ -157,8 +174,8 @@ public class Main extends Application {
                 }
 
                 //Aqui comienza la lógica del juego
-                ModoDeJuego modo = new ModoDeJuego(modoDeJuego);
-                Arena arena = new Arena(jugadores, modo);
+                /*modo = new ModoDeJuego(modoDeJuego);
+                arena = new Arena(jugadores, modo);*/
 
                 Boolean sigue = true;
                 while (sigue){

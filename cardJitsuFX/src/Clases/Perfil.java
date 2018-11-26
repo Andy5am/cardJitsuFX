@@ -8,7 +8,13 @@ public class Perfil {
     private int xp;
     private ArrayList<Cinturon> cinturones;
 
-    public Perfil (){}
+    public Perfil (){
+        this.victorias = 0;
+        this.derrotas = 0;
+        this.xp = 0;
+        this.cinturones = new ArrayList();
+    }
+
 
     public int getVictorias() {
         return victorias;
