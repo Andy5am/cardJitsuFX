@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b37c895-7443-4a21-832c-4ab86196ce1c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cardJitsu/InicioDeSesion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cardJitsu/InicioDeSesion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InicioDeSesion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/InicioDeSesion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuModosDeJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuModosDeJuego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuPerfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuPerfil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuPerfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuPerfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuTurnoJugador.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuTurnoJugador.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuTurnoJugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuTurnoJugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NuevoPerfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NuevoPerfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PantallaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PantallaInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cardJitsuFX/.gradle/" />
@@ -40,7 +30,7 @@
     <session id="913174589">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -53,13 +43,14 @@
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
           <entry key="java" value="49" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="49" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
@@ -68,12 +59,14 @@
           <entry key="fxml" value="3" />
           <entry key="gradle" value="91" />
           <entry key="java" value="11024" />
+          <entry key="md" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="91" />
           <entry key="JAVA" value="11024" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -111,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Clases/ModoDeJuego.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="128" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -163,16 +165,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InicioDeSesion.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -537,6 +529,7 @@
         <option value="$PROJECT_DIR$/src/MenuTurnoJugador.fxml" />
         <option value="$PROJECT_DIR$/src/MenuTurnoJugador.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -581,7 +574,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543281398244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543286382929" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../postgresql-42.2.5.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -690,7 +683,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8323077" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" sideWeight="0.1676923" side_tool="true" visible="true" weight="0.2118003" />
@@ -1013,8 +1005,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Clases/ModoDeJuego.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="128" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
