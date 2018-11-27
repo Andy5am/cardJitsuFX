@@ -19,11 +19,6 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" onAction="#regresarMenuModosDeJuego" text="Salir">
-         <GridPane.margin>
-            <Insets bottom="50.0" left="25.0" />
-         </GridPane.margin>
-      </Button>
       <Label fx:id="turnoLabel" text="Turno jugador">
          <font>
             <Font size="30.0" />
@@ -56,31 +51,6 @@
          </font>
          <GridPane.margin>
             <Insets bottom="75.0" left="75.0" />
-         </GridPane.margin>
-      </Label>
-      <Label fx:id="carta5" text="Carta 5" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="455.0" />
-         </GridPane.margin>
-      </Label>
-      <Label fx:id="carta4" text="Carta 4" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="350.0" />
-         </GridPane.margin>
-      </Label>
-      <Label fx:id="carta3" text="Carta 3" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="250.0" />
-         </GridPane.margin>
-      </Label>
-      <Label fx:id="carta2" text="Carta 2" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="150.0" />
-         </GridPane.margin>
-      </Label>
-      <Label fx:id="carta1" text="Carta 1" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="50.0" />
          </GridPane.margin>
       </Label>
       <Button fx:id="carta1Button" mnemonicParsing="false" onAction="#carta1ButtonHandler" text="Carta 1" GridPane.rowIndex="2">
@@ -155,49 +125,49 @@
          <font>
             <Font size="18.0" />
          </font></Label>
-      <Label fx:id="cartaJ1F" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ1F" prefHeight="82.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <GridPane.margin>
-            <Insets left="55.0" />
+            <Insets left="55.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="cartaJ1A" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ1A" prefHeight="81.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <GridPane.margin>
-            <Insets left="137.0" />
+            <Insets left="137.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="cartaJ1N" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ1N" prefHeight="90.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <font>
             <Font size="14.0" />
          </font>
          <GridPane.margin>
-            <Insets left="208.0" />
+            <Insets left="208.0" top="50.0" />
          </GridPane.margin>
       </Label>
-      <Label fx:id="cartaJ2F" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ2F" prefHeight="79.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <GridPane.margin>
-            <Insets left="331.0" />
+            <Insets left="331.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="cartaJ2A" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ2A" prefHeight="104.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <font>
             <Font size="14.0" />
          </font>
          <GridPane.margin>
-            <Insets left="395.0" />
+            <Insets left="395.0" top="50.0" />
          </GridPane.margin>
       </Label>
-      <Label fx:id="cartaJ2N" text="Label" GridPane.rowIndex="1">
+      <Label fx:id="cartaJ2N" prefHeight="91.0" prefWidth="33.0" text="Label" GridPane.rowIndex="1">
          <GridPane.margin>
-            <Insets left="465.0" />
+            <Insets left="465.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="14.0" />

@@ -1,6 +1,7 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -29,16 +30,6 @@ public class MenuTurnoJugador {
     @FXML
     private Label cartaJ2N;
     @FXML
-    private Label carta1;
-    @FXML
-    private Label carta2;
-    @FXML
-    private Label carta3;
-    @FXML
-    private Label carta4;
-    @FXML
-    private Label carta5;
-    @FXML
     private Label j1_nombre;
     @FXML
     private Label j2_nombre;
@@ -54,19 +45,7 @@ public class MenuTurnoJugador {
     @FXML
     private Button carta5Button;
 
-    public void regresarMenuModosDeJuego(ActionEvent event){
-        try{
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("MenuModosDeJuego.fxml"));
-            Parent root =loader.load();
-            Stage stage = new Stage();
-            stage.setTitle("Menu Modos de Juego");
-            stage.setScene(new Scene(root,450,450));
-            MenuModosDeJuego controllerMenuModosDeJuego = loader.getController();
-            stage.show();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+
     public void initialize(){
         refresh();
         j1_nombre.setText(Main.getJugador(0).getUsuario());
@@ -142,7 +121,7 @@ public class MenuTurnoJugador {
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Batalla JAJA SALU2");
-                stage.setScene(new Scene(root,450,450));
+                stage.setScene(new Scene(root,600,450));
                 Batalla batalla = loader.getController();
                 stage.show();
             }catch(Exception e){e.printStackTrace();}
@@ -163,7 +142,7 @@ public class MenuTurnoJugador {
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Batalla JAJA SALU2");
-                stage.setScene(new Scene(root,450,450));
+                stage.setScene(new Scene(root,600,450));
                 Batalla batalla = loader.getController();
                 stage.show();
             }catch(Exception e){e.printStackTrace();}
@@ -186,7 +165,7 @@ public class MenuTurnoJugador {
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Batalla JAJA SALU2");
-                stage.setScene(new Scene(root,450,450));
+                stage.setScene(new Scene(root,600,450));
                 Batalla batalla = loader.getController();
                 stage.show();
             }catch(Exception e){e.printStackTrace();}
@@ -208,7 +187,7 @@ public class MenuTurnoJugador {
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Batalla JAJA SALU2");
-                stage.setScene(new Scene(root,450,450));
+                stage.setScene(new Scene(root,600,450));
                 Batalla batalla = loader.getController();
                 stage.show();
             }catch(Exception e){e.printStackTrace();}
@@ -230,7 +209,7 @@ public class MenuTurnoJugador {
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Batalla JAJA SALU2");
-                stage.setScene(new Scene(root,450,450));
+                stage.setScene(new Scene(root,600,450));
                 Batalla batalla = loader.getController();
                 stage.show();
             }catch(Exception e){e.printStackTrace();}

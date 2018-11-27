@@ -202,20 +202,21 @@ public class Main extends Application {
                 arena = new Arena(jugadores, modo);*/
 
                 Boolean sigue = true;
-                while (sigue){
+                while (sigue) {
                     ArrayList<Carta> cartasEnJuego = new ArrayList<>();
-                    for (int a  = 0; a<2;a++){
-                        System.out.println("Jugador "+(a+1));
+                    for (int a = 0; a < 2; a++) {
+                        System.out.println("Jugador " + (a + 1));
                         System.out.println(jugadores.get(a).toString());
                         System.out.print("Ingrese el numero de su elección de carta: ");
-                        try{
-                            int respuesta = input2.nextInt()-1;
+                        try {
+                            int respuesta = input2.nextInt() - 1;
                             cartasEnJuego.add(jugadores.get(a).getDeck().getCartasVisibles().get(respuesta));
                             jugadores.get(a).getDeck().usarCarta(cartasEnJuego.get(a));
-                        }catch(Exception e){
+                        } catch (Exception e) {
                             System.out.println("Ese no es u dato valido...");
                         }
                     }
+
                     Boolean juez = arena.getModoDeJuego().encuentro(cartasEnJuego.get(0),cartasEnJuego.get(1));
                     //TODO el metodo encuentro debe considerar el elemento de las cartas - DONE
                     System.out.println("El ganador es: "+ juez);

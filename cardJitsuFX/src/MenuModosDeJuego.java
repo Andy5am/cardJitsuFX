@@ -21,27 +21,15 @@ public class MenuModosDeJuego {
             Parent root = loader.load();
             Stage stage = new Stage();
             stage.setTitle("Pantalla inicial");
-            stage.setScene(new Scene(root,450,450));
+            stage.setScene(new Scene(root,500,450));
             PantallaInicial controllerPantallaInicial= loader.getController();
+            ((Node)event.getSource()).getScene().getWindow().hide();
             stage.show();
         }catch (Exception e){
             e.printStackTrace();
         }
     }
 
-    public void abrirMenuTurnoJugadores(ActionEvent event){
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("MenuTurnoJugador.fxml"));
-            Parent root = loader.load();
-            Stage stage = new Stage();
-            stage.setTitle("Turno Jugadores");
-            stage.setScene(new Scene(root,450,450));
-            MenuTurnoJugador controllerMenuTurnoJugador = loader.getController();
-            stage.show();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
 
     public void modo1Button (ActionEvent event){
         Main.setModoDeJuego(new ModoDeJuego("modo1"));
@@ -52,8 +40,9 @@ public class MenuModosDeJuego {
             Parent root = loader.load();
             Stage stage = new Stage();
             stage.setTitle("Turno Jugadores");
-            stage.setScene(new Scene(root,450,450));
+            stage.setScene(new Scene(root,600,450));
             MenuTurnoJugador controllerMenuTurnoJugador = loader.getController();
+            ((Node)event.getSource()).getScene().getWindow().hide();
             stage.show();
         }catch (Exception e){
             e.printStackTrace();
@@ -68,8 +57,9 @@ public class MenuModosDeJuego {
             Parent root = loader.load();
             Stage stage = new Stage();
             stage.setTitle("Turno Jugadores");
-            stage.setScene(new Scene(root,450,450));
+            stage.setScene(new Scene(root,600,450));
             MenuTurnoJugador controllerMenuTurnoJugador = loader.getController();
+            ((Node)event.getSource()).getScene().getWindow().hide();
             stage.show();
         }catch (Exception e){
             e.printStackTrace();

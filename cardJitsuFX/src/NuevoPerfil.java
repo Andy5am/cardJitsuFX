@@ -30,13 +30,8 @@ public class NuevoPerfil {
     public void regresarInicioDeSesion(ActionEvent event){
         ((Node) event.getSource()).getScene().getWindow().hide();
         try{
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("InicioDeSesion.fxml"));
-            Parent root = loader.load();
-            Stage stage = new Stage();
-            stage.setTitle("Inicio de Sesion");
-            stage.setScene(new Scene(root,450,450));
-            InicioDeSesion controllerInicioDeSesion = loader.getController();
-            stage.show();
+
+            ((Node)event.getSource()).getScene().getWindow().hide();
         }catch (Exception e){
             e.printStackTrace();
         }
