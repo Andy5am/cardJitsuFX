@@ -10,6 +10,12 @@ public class Usuario {
     public ArrayList<Carta> cartasGanadasPartida;
     public int [][] matriz;
 
+    public void agregarCartaGanada(Carta a){
+        cartasGanadasPartida.add(a);
+    }
+    public ArrayList <Carta> getCartasGanadasPartida(){
+        return cartasGanadasPartida;
+    }
     //Constructor
     public Usuario(String user, String password, String correo){
         this.usuario= user;
@@ -121,6 +127,10 @@ public class Usuario {
         this.perfil.partidaPerdida();
         this.perfil.sumarXp(25);
     }
+    //El metodo hayRecompensa() devuelve un entero indicando la recompensa obtenida.
+    //  - Devuelve 1 si ha ganado un cintron
+    //  - 2 si ha ganado una carta
+    // -    0 si no gana nada
     public int hayRecompensa(){
         int r = 0;
         if (this.perfil.getXp() % 500 == 0){
@@ -139,6 +149,14 @@ public class Usuario {
         colores.add("Morado");
         colores.add("Naranja");
 
+        if (this.perfil.getXp() % 500 == 0){
+            r = 1;
+            this.perfil.agregarCinturon();
+            int el = (int) (Math.random() * elementos.size());
+            int col = (int) (Math.random() * colores.size());
+            int num = (int) (Math.random() * 10) + 1;
+            this.deck.agregarCarta(new Carta(num,colores.get(col),elementos.get(el)));
+        }
         if (this.perfil.getXp() % 250 == 0){
             r = 2;
             int el = (int) (Math.random() * elementos.size());
@@ -146,7 +164,6 @@ public class Usuario {
             int num = (int) (Math.random() * 10) + 1;
             this.deck.agregarCarta(new Carta(num,colores.get(col),elementos.get(el)));
         }
-
         return r;
     }
     public String perfilSerializer () {
@@ -154,5 +171,21 @@ public class Usuario {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         json = gson.toJson(this.perfil);
         return json;
+    }
+    public String getCinturon(){
+        try {
+            return this.getPerfil().getCinturon().toString();
+        }catch(Exception e){
+            return "No tiene cinturón";
+        }
+    }
+    public String getDerrotas(){
+        return this.getPerfil().getDerrotasString();
+    }
+    public String getVictorias(){
+        return this.getPerfil().getVictoriasString();
+    }
+    public String getXp(){
+        return this.getPerfil().getXPString();
     }
 }

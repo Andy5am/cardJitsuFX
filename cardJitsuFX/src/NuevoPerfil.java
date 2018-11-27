@@ -29,7 +29,7 @@ public class NuevoPerfil {
 
     public void regresarInicioDeSesion(ActionEvent event){
         ((Node) event.getSource()).getScene().getWindow().hide();
-        /*try{
+        try{
             FXMLLoader loader = new FXMLLoader(getClass().getResource("InicioDeSesion.fxml"));
             Parent root = loader.load();
             Stage stage = new Stage();
@@ -39,7 +39,7 @@ public class NuevoPerfil {
             stage.show();
         }catch (Exception e){
             e.printStackTrace();
-        }*/
+        }
     }
 
     public void crearNuevoUsuario (ActionEvent event){

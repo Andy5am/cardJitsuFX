@@ -30,4 +30,8 @@ public class Carta {
     public void setElemento(String elemento) {
         this.elemento = elemento;
     }
+    public String toString(){
+        String r = "Numero: "+numero+"\nElemento: "+elemento+"\nColor: "+color;
+        return r ;
+    }
 }

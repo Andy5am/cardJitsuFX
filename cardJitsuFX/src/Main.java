@@ -19,8 +19,32 @@ import java.sql.Statement;
 public class Main extends Application {
 
     private static ArrayList<Usuario> jugadores = new ArrayList();
+    private static int contador = 1;
     private static Arena arena;
     private static ModoDeJuego modo;
+    private static ArrayList<Carta> cartasEnJuego = new ArrayList();
+
+    public static void aumentarContador(){
+        contador++;
+    }
+    public static int getContador(){
+        return contador;
+    }
+    public static void setContador(int i){
+        contador = i;
+    }
+    public static void setCartasEnJuego(ArrayList<Carta> c){
+        cartasEnJuego = c;
+    }
+    public static void agregarCartaEnJueo(Carta c){
+        cartasEnJuego.add(c);
+    }
+    public static Carta getCartaEnJuego(int a){
+        return cartasEnJuego.get(a);
+    }
+    public static ArrayList<Carta> getCartasEnJuego () {
+        return cartasEnJuego;
+    }
     public static ModoDeJuego getModoDeJuego(){
         return modo;
     }

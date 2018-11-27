@@ -18,35 +18,51 @@ public class ModoDeJuego {
 
     //El metodo encuentro determinará el ganador. Si retorna TRUE, gana el jugador 1, de lo contrario, gana jugador 2. Retorna null si es empate
     public Boolean encuentro (Carta j1, Carta j2){
-        Boolean resultado = null;
-
+        Boolean resultado=null;
         if(j1.getElemento().equals("Agua")){
-            if (j2.getElemento().equals("Hielo")){
+            if (j2.getElemento().equals("Nieve")){
                 resultado = false;
             }else if(j2.getElemento().equals("Fuego")){
                 resultado = true;
+            }else if (j2.getElemento().equals("Agua")){
+                if (j1.getNumero()> j2.getNumero()){
+                    resultado = true;
+                }else if (j1.getNumero()< j2.getNumero()){
+                    resultado = false;
+                }
             }
-        }else if(j1.getElemento().equals("Hielo")){
+        }else if(j1.getElemento().equals("Nieve")){
             if (j2.getElemento().equals("Fuego")){
                 resultado = false;
             }else if (j2.getElemento().equals("Agua")){
                 resultado = true;
+            }else if (j2.getElemento().equals("Nieve")){
+                if (j1.getNumero()> j2.getNumero()){
+                    resultado = true;
+                }else if (j1.getNumero()< j2.getNumero()){
+                    resultado = false;
+                }
             }
         }else if(j1.getElemento().equals("Fuego")){
             if (j2.getElemento().equals("Agua")){
                 resultado = false;
-            }else if (j2.getElemento().equals("Hielo")){
+            }else if (j2.getElemento().equals("Nieve")){
                 resultado = true;
+            }else if(j2.getElemento().equals("Fuego")){
+                if (j1.getNumero()> j2.getNumero()){
+                    resultado = true;
+                }else if (j1.getNumero()< j2.getNumero()){
+                    resultado = false;
+                }
             }
-        }else if (j1.getElemento().equals(j2.getElemento())){
-            //resultado = null;
-            if (j1.getNumero()> j2.getNumero()){
+        }else{
+           /* if (j1.getNumero()> j2.getNumero()){
                 resultado = true;
             }else if (j1.getNumero()< j2.getNumero()){
                 resultado = false;
-            }else{
+            }else{*/
                 resultado = null;
-            }
+            //}
         }
         return resultado;
     }

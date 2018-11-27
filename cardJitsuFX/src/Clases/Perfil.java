@@ -38,8 +38,13 @@ public class Perfil {
     }
 
     public Cinturon getCinturon() {
-        return cinturones.get(cinturones.size()-1);
+        if (cinturones.size()>=1){
+            return cinturones.get(cinturones.size()-1);
+        }else{
+            return null;
+        }
     }
+    //public String getCinturonString(){}
     public void agregarCinturon(Cinturon c){
         cinturones.add(c);
     }
@@ -51,6 +56,15 @@ public class Perfil {
     public String toString(){
         String r = "Victorias: "+victorias+"\nDerrotas: "+derrotas+"\nXP: "+xp;
         return r;
+    }
+    public String getVictoriasString(){
+        return String.valueOf(victorias);
+    }
+    public String getDerrotasString(){
+        return String.valueOf(derrotas);
+    }
+    public String getXPString(){
+        return String.valueOf(xp);
     }
 
 }

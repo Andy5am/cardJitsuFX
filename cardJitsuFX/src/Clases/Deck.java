@@ -17,8 +17,8 @@ public class Deck {
 
     public Deck(ArrayList<Carta> c){
         this.cartas = c;
-        System.out.println(cartas.size());
-        this.cartasVisibles = c;
+        //System.out.println(cartas.size());
+        this.cartasVisibles = cartas;
         /**for (int i = 1; (i< cartas.size()) && (i<5); i++){
          this.cartasVisibles.add(cartas.get(i));
          }**/

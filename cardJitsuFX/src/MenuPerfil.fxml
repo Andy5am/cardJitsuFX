@@ -19,14 +19,14 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Label text="Perfil 1">
+      <Label fx:id="LabelPerfil1" text="Perfil 1">
          <font>
             <Font size="25.0" />
          </font>
          <GridPane.margin>
-            <Insets left="100.0" />
+            <Insets left="150.0" />
          </GridPane.margin></Label>
-      <Label text="Perfil 2" GridPane.columnIndex="1">
+      <Label fx:id="LabelPerfil2" text="Perfil 2" GridPane.columnIndex="1">
          <font>
             <Font size="25.0" />
          </font>
@@ -35,41 +35,41 @@
          </GridPane.margin></Label>
       <Button mnemonicParsing="false" onAction="#regresarPantallaInicial" text="Regresar">
          <GridPane.margin>
-            <Insets bottom="100.0" />
+            <Insets bottom="50.0" left="50.0" />
          </GridPane.margin>
       </Button>
-      <Label text="Cinturón" GridPane.rowIndex="1">
+      <Label fx:id="LabelCinturon1" prefHeight="30.0" prefWidth="146.0" text="Cinturón" GridPane.rowIndex="1">
          <font>
             <Font size="20.0" />
          </font>
          <GridPane.margin>
-            <Insets bottom="50.0" left="100.0" />
+            <Insets bottom="50.0" left="150.0" />
          </GridPane.margin>
       </Label>
-      <Label text="XP" GridPane.rowIndex="1">
+      <Label fx:id="LabelXp1" text="XP" GridPane.rowIndex="1">
          <font>
             <Font size="20.0" />
          </font>
          <GridPane.margin>
-            <Insets left="100.0" top="50.0" />
+            <Insets left="175.0" top="50.0" />
          </GridPane.margin>
       </Label>
-      <Label text="Victorias" GridPane.rowIndex="2">
+      <Label fx:id="LabelVictorias1" text="Victorias" GridPane.rowIndex="2">
          <font>
             <Font size="20.0" />
          </font>
          <GridPane.margin>
-            <Insets bottom="50.0" left="100.0" />
+            <Insets bottom="50.0" left="150.0" />
          </GridPane.margin>
       </Label>
-      <Label text="Derrotas" GridPane.rowIndex="2">
+      <Label fx:id="LabelDerrotas1" text="Derrotas" GridPane.rowIndex="2">
          <GridPane.margin>
-            <Insets left="100.0" top="50.0" />
+            <Insets left="150.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="19.0" />
          </font></Label>
-      <Label text="Cinturón" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <Label fx:id="LabelCinturon2" prefHeight="30.0" prefWidth="128.0" text="Cinturón" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets bottom="50.0" left="100.0" />
          </GridPane.margin>
@@ -77,7 +77,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label text="XP" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <Label fx:id="LabelXp2" text="XP" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets left="100.0" top="50.0" />
          </GridPane.margin>
@@ -85,7 +85,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label text="Victorias" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Label fx:id="LabelVictorias2" text="Victorias" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets bottom="50.0" left="100.0" />
          </GridPane.margin>
@@ -93,13 +93,48 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label text="Derrotas" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Label fx:id="LabelDerrotas2" text="Derrotas" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="100.0" top="50.0" />
          </GridPane.margin>
          <font>
             <Font size="20.0" />
          </font>
+      </Label>
+      <Label text="Cinturón" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="50.0" left="25.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label text="XP" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets top="50.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label text="Victorias" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="50.0" left="25.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label text="Derrotas" GridPane.rowIndex="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="25.0" top="50.0" />
+         </GridPane.margin>
       </Label>
    </children>
 </GridPane>
